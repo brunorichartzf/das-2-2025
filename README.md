@@ -45,6 +45,25 @@ Design tradeoffs
 - Automatizar práticas de segurança para evitar cometer erros ao criar/editar manualmente
 - Princípio do privilégio mínimo: Dar ao usuário acesso apenas ao que é de estrita necessidade para a sua função
 - Sempre usar criptografia
-- 
+
+
+### Aula 13/03/2025
+
+- Autenticação: Provar que eu sou quem digo que sou. O que eu sei (usuario e senha), o que sou (biometria) e o que tenho (chave de segurança)
+- Usuário é uma credencial
+- Sempre habilitar MFA
+- Rotacionar o uso das long-term credentials/access keys
+- Guardar as credenciais de forma segura
+- Nunca usar usuário root para tarefas que outros usuários possam fazer
+- Primeira coisa a se fazer com o usuário root é habilitar o MFA
+- Acesso programático: Uma Role dá uma chave de acesso temporária, permitindo ao usuário realizar as ações definidas, enquanto a chave for válida
+
+
+
+
+
+
+
+
 
 - ![alt text](image-1.png)
