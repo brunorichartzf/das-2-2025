@@ -56,14 +56,12 @@ Design tradeoffs
 - Guardar as credenciais de forma segura
 - Nunca usar usuário root para tarefas que outros usuários possam fazer
 - Primeira coisa a se fazer com o usuário root é habilitar o MFA
-- Acesso programático: Uma Role dá uma chave de acesso temporária, permitindo ao usuário realizar as ações definidas, enquanto a chave for válida
+- Não há limite para o que o usuário root pode fazer
+- Acesso programático: Uma Role dá uma chave de acesso temporária, permitindo ao usuário ou máquina realizar as ações definidas, enquanto a chave for válida
+- Acesso console: acesso direto pelo usuario, normalmente com uma chave que não expira
 
+### Aula 17/03/2025
 
+- RBAC Role Base Access Control: permissões definidas de acordo com o seu papél na empresa/sistema
+- 
 
-
-
-
-
-
-
-- ![alt text](image-1.png)
