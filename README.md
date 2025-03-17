@@ -63,5 +63,12 @@ Design tradeoffs
 ### Aula 17/03/2025
 
 - RBAC Role Base Access Control: permissões definidas de acordo com o seu papél na empresa/sistema
+- Policies são usadas para definir exatamente as permissões de cada usuário.
+- Policies de identidade definem permissões baseado em cada usuário
+- Policies de recurso definem permissões por meio de documentos - permissão granular
+- Todas tem efeito, ação e recurso. Necessário especificar usuário (principal) no caso de policy de recurso.
+- Armazenamento em bloco: dados são armazenados em blocos de tamanho fixo
+- Armazenamento em arquivos: dados são armazenados em uma estrutura hierarquica
+- Armazenamento de objetos: dados são armazenados em objetos baseados em atributos e meta dados
 - 
 
