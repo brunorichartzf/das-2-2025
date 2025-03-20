@@ -70,5 +70,8 @@ Design tradeoffs
 - Armazenamento em bloco: dados são armazenados em blocos de tamanho fixo
 - Armazenamento em arquivos: dados são armazenados em uma estrutura hierarquica
 - Armazenamento de objetos: dados são armazenados em objetos baseados em atributos e meta dados
+
+### Aula 20/03/2025
+
 - 
 
