@@ -94,4 +94,9 @@ Design tradeoffs
 
 ### Aula 24/03/2025
 
-- 
+- Ciclo de vida S3: Definir um período de tempo que após ser excedido, algo é feito com os dados, como: Mover de classe ou apagar
+- Versionamento do S3: Não é possível desabilitar após habilitado, pode apenas ser pausado.
+- Ao fazer upload de um objeto com a mesma chave ele mantém a chave do objeto e cria um id de versão diferente
+- Ao deletar ele cria uma versão marcando o arquivo como apagado, para restaurar o arquivo basta apagar a versão com o marcador
+- CORS: é uma proteção para os arquivos do site. Ocorre quando um site tenta consumir dados de outro site e o outro site não permite o acesso
+- Todo bucket é privado e criptografado por padrão
