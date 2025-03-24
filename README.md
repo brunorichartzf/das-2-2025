@@ -73,5 +73,25 @@ Design tradeoffs
 
 ### Aula 20/03/2025
 
-- 
+- S3 possui durabilidade e disponibilidade de 99,99%;
+- Usos do S3: sites estáticos, picos de demanda, recuperação de desastres, armazenamento de dados para análise
+- Storage gateway: servidor que serve como buffer, dados gravados nele são mandados para o s3
+- Multipart upload: arquivos grandes (mais de 5TB) são armazenados no S3 em múltiplas partes, o arquivo é dividido em partes de tamanhos iguais e enviados para o S3
+- Direct connect: usa cloudfront edge locations para criar caminhos mais curtos para acessar o S3. Diminui a latência por não entrar na internet pública
+- Transfer family: permite enviar e receber do s3 sem ter que alterar o protocolo de transferência de arquivos do seu software
+- Storage classes: formas como o S3 guarda a informação, definem o preço e disponibilidade:
+- Classes quentes: acesso imediato ao objeteto armazenado:
+- Standard: caro para armazenar, barato para baixar
+- Standard-IA (infrequent access): mais barato para armazenar, mais caro para baixar. Server para arquivos pouco acessados
+- One zone-IA: faz apenas uma cópia do objeto ao invés de 3, tornando armazenamento mais barato
+- Intelligent-tiering: Arquivos são monitorados no s3 e são movidos para a classe mais apropriada, dependendo de fatores, como frequência de acesso
+- Classes frias: objetos precisam ser recuperados:
+- Há períodos mínimos para manter arquivos e custos extras são aplicados se baixar antes desse tempo
+- Glacier deep archive: armazenamento offline, arquivos podem demorar de 12 a 48 horas para serem recuperados, é mais barato para armazenar
+- Glacier flexible retrieval: é mais rápido para baixar e mais caro que o deep archive
+- Glacier instant retrieval: arquivo disponível instantaneamente, mas precisa passar por reidratação para ser usado
+- Outposts: Leva servidores da AWS fisicamente para dentro das empresas, aparece como uma região da própria empresa no console
 
+### Aula 24/03/2025
+
+- 
