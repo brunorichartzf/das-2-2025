@@ -103,25 +103,34 @@ Design tradeoffs
 
 ### Aula 03/04
 
-- EC2: Elastic compute Cloud, permite criar e hospedar sistemas de software com capacidade computacional redimencionável;
-- Serve para qualquer coisa que necessite de um servidor;
-- AMI, uma "foto" do servidor, permitindo criar cópias idênticas do servidor original. Serve para recuperação e repetição;
-- EBS: Armazenamento persistente na EC2, diferente da instance store no host, que só armazena arquivos temporariamente;
-- quanto menos gerenciado, mais controle:
-- (menos gerenciado) Vms, Containers, VPS, PaaS, Serverless (mais gerenciado);
-- Compute optimizer: IA que recomenda recursos de computação da AWS mais eficientes para workloads, tem versão gratuita e paga;
-- File share: usar FSx para Windows, EFS para Linux;
+- EC2: Elastic compute Cloud, permite criar e hospedar sistemas de software com capacidade computacional redimencionável
+- Serve para qualquer coisa que necessite de um servidor
+- AMI, uma "foto" do servidor, permitindo criar cópias idênticas do servidor original. Serve para recuperação e repetição
+- EBS: Armazenamento persistente na EC2, diferente da instance store no host, que só armazena arquivos temporariamente
+- quanto menos gerenciado, mais controle
+- (menos gerenciado) Vms, Containers, VPS, PaaS, Serverless (mais gerenciado)
+- Compute optimizer: IA que recomenda recursos de computação da AWS mais eficientes para workloads, tem versão gratuita e paga
+- File share: usar FSx para Windows, EFS para Linux
 
-## Aula 07/04
+### Aula 07/04
 
-- Intence metadata: funciona como uma API rest, em um IP que só funciona na AWS. Usado para perguntar para a AWS coisas que o servidor não sabe;
-- HPC: cluster, colocar todas as máquinas na mesma AZ e se possível no mesmo rack. Reduz latência;
-- Spread é o oposto, colocar tudo o mais longe o possível para mais disponibilidade;
-- Partition: Os dados não ficam no mesmo servidor, mas os servidores estão próximos. Um meio termo. Usa ou Apache Kafka, Apache Cassandra, ou Apache Spark;
-- EC2 free tier: EC2 de graça nos 12 primeiros meses; 
+- Intence metadata: funciona como uma API rest, em um IP que só funciona na AWS. Usado para perguntar para a AWS coisas que o servidor não sabe
+- HPC: cluster, colocar todas as máquinas na mesma AZ e se possível no mesmo rack. Reduz latência
+- Spread é o oposto, colocar tudo o mais longe o possível para mais disponibilidade
+- Partition: Os dados não ficam no mesmo servidor, mas os servidores estão próximos. Um meio termo. Usa ou Apache Kafka, Apache Cassandra, ou Apache Spark
+- EC2 free tier: EC2 de graça nos 12 primeiros meses
 - EC2 modelos: 
-- on-demand (tudo sempre disponível, mais caro); 
-- reserved (especificar tudo e usar apenas isso por 1 ou 3 anos);
-- saving plans (mais flexível que o reserved mas cobrança por hora);
-- EC2 Spot (usar máquinas que não estão em uso na AWS, mas podem ser pedidas de volta);
-- Segurança não pode depender de ação manual, abrir portas corretas do firewall, usar tamanho de máquina correto, escolher modelo de precificação correto, evitar desperdício;
+- on-demand (tudo sempre disponível, mais caro)
+- reserved (especificar tudo e usar apenas isso por 1 ou 3 anos)
+- saving plans (mais flexível que o reserved mas cobrança por hora)
+- EC2 Spot (usar máquinas que não estão em uso na AWS, mas podem ser pedidas de volta)
+- Segurança não pode depender de ação manual, abrir portas corretas do firewall, usar tamanho de máquina correto, escolher modelo de precificação correto, evitar desperdício
+
+### Aula 10/04/2025
+
+- Considerações para criar um banco de dados: Escalabilidade, Quantidade de espaço de armazenamento necessário, Características dos dados e durabilidade
+- Amazon RDS: Serviço de banco de dados relacionais gerenciados da Amazon
+- Amazon DynamoDB, Amazon Neptune e Amazon ElastiCache: Serviços de banco de dados não relacionais gerenciados da Amazon
+- Amazon Aurora: Banco de dados relacionar que simula um MySQL(sendo 5x mais rápido) ou Postgres(sendo 3x mais rápido)
+- Amazon Aurora Serverless: Capaz de ligar e desligar sozinho
+- 
