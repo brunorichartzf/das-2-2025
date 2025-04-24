@@ -144,3 +144,4 @@ Design tradeoffs
 - DynamoDB: BD NoSQL, serverless, performance de um dígito de milisegundo. Ideal para arquitetura baseada em eventos. Ativo/ativo. Critpografia automática padrão, usa IAM roles para autenticar acesso
 - Redshift: BD para data warehouse, para pesquisas pesadas e históricas
 - Outros DBs disponibilizados na AWS: DocumentDB, Keyspaces, MemoryDB Neptune, Timestream, Quantum Ledger
+teste
