@@ -144,3 +144,9 @@ Design tradeoffs
 - DynamoDB: BD NoSQL, serverless, performance de um dígito de milisegundo. Ideal para arquitetura baseada em eventos. Ativo/ativo. Critpografia automática padrão, usa IAM roles para autenticar acesso
 - Redshift: BD para data warehouse, para pesquisas pesadas e históricas
 - Outros DBs disponibilizados na AWS: DocumentDB, Keyspaces, MemoryDB Neptune, Timestream, Quantum Ledger
+
+### Aula 05/05/2025
+
+- VPC: Virtual Private Cloud: Pertence a apenas uma região e fica isolada nela | É possível definir a velocidade máxima do tráfego
+- CIDR: Como a máscara de rede, ele define o tamanho da rede
+- Subnet pública: Os recursos dela estão disponíveis pra internet de dentro pra fora e de fora pra dentro
