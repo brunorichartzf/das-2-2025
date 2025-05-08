@@ -150,3 +150,14 @@ Design tradeoffs
 - VPC: Virtual Private Cloud: Pertence a apenas uma região e fica isolada nela | É possível definir a velocidade máxima do tráfego
 - CIDR: Como a máscara de rede, ele define o tamanho da rede
 - Subnet pública: Os recursos dela estão disponíveis pra internet de dentro pra fora e de fora pra dentro 
+
+### Aula 08/05/2025
+
+- Máquinas em uma VPC que não tem acesso à internet não conseguem baixar nada, é necessário uma máquina para intermediar a comunicação. (NAT device instance e NAT gateway)
+- Banco de dados: VPC privada
+- Batch-processing instances: VPC privada
+- Instâncias de aplicações web: VPC pública
+- Instâncias de NAT gateway: VPC pública
+- Security group: Usado para definir quem possui permissão de acessar o que
+- Network ACL: Valida a permissão na entrada e na saída
+- AWS Network Firewall: Servidor de firewall que pode ser utilizado em uma subnet especial, é usado para controlar as regras de entrada e saída para a internet
