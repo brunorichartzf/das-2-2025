@@ -149,4 +149,4 @@ Design tradeoffs
 
 - VPC: Virtual Private Cloud: Pertence a apenas uma região e fica isolada nela | É possível definir a velocidade máxima do tráfego
 - CIDR: Como a máscara de rede, ele define o tamanho da rede
-- Subnet pública: Os recursos dela estão disponíveis pra internet de dentro pra fora e de fora pra dentro
+- Subnet pública: Os recursos dela estão disponíveis pra internet de dentro pra fora e de fora pra dentro 
