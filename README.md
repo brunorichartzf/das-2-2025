@@ -161,3 +161,4 @@ Design tradeoffs
 - Security group: Usado para definir quem possui permissão de acessar o que
 - Network ACL: Valida a permissão na entrada e na saída
 - AWS Network Firewall: Servidor de firewall que pode ser utilizado em uma subnet especial, é usado para controlar as regras de entrada e saída para a internet
+- VPC flow logs: log de tentativa de conexão 
