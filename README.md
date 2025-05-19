@@ -162,3 +162,8 @@ Design tradeoffs
 - Network ACL: Valida a permissão na entrada e na saída
 - AWS Network Firewall: Servidor de firewall que pode ser utilizado em uma subnet especial, é usado para controlar as regras de entrada e saída para a internet
 - VPC flow logs: log de tentativa de conexão 
+
+### Aula 19/05/2025
+
+- AWS Transit Gateway: roteador central, conectar todos os vpcs nele para resolver conexões mais facilmente. serviço regional capaz de se conectar com 5000 "coisas"
+- 
