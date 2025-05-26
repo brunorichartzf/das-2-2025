@@ -166,4 +166,16 @@ Design tradeoffs
 ### Aula 19/05/2025
 
 - AWS Transit Gateway: roteador central, conectar todos os vpcs nele para resolver conexões mais facilmente. serviço regional capaz de se conectar com 5000 "coisas"
+- Topologia Full Mesh: todas as vpcs falam entre sí
+- Topologia Hub and Spoke (shared vpc): hub com serviços compartilhados que se conecta com todas as vpcs
+- Transit Gateway: ajuda a criar essas topologias, seviço pago e regional. Cria até 5000 conexões
+- Vcp Peering: conexão entre vpcs, gratúito se ambas estão na mesma região, pago senão
+- Direct Connect: conexão exclusiva criada por meio de um circúito do servidor da região até você
+
+### Aula 19/05/2025
+
+- IAM groups: criar um conjunto de permissões e atribuir usuários à esse grupo, simplificando o gerenciamento de permissões
+- RBAC: Tipo de permissão onde é criado um papel que um usuário pode assumir temporariamente
+- ABAC: Permite definir permissões com base em atributos associados a um grupo
+- Amazon Cognito: Serviço que provê autenticação, autorização, e gerenciamento de usuários
 - 
