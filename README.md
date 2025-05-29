@@ -178,4 +178,15 @@ Design tradeoffs
 - RBAC: Tipo de permissão onde é criado um papel que um usuário pode assumir temporariamente
 - ABAC: Permite definir permissões com base em atributos associados a um grupo
 - Amazon Cognito: Serviço que provê autenticação, autorização, e gerenciamento de usuários
+
+### Aula 29/05/2025
+
+- Empresas se organizam com apenas uma conta para a empresa toda ou uma conta para cada equipe e organizam as equipes em árvores subordinadas à conta principal
+- AWS Organizations é uma ferramenta para gerir multiplas contas da AWS no caso dessas empresas
+- Conta root envia convites para outras contas, formando uma hierarquia de contas. O que dá acesso ao billing consolidado do AWS Organizations
+- AWS Control Tower: Cria uma estrutura completa da AWS usando as melhores práticas, ideal para grandes organizações
+- Confiabiliade, integridade e disponibilidade. Sempre 1 é sacrificado para garantir as outras
+- AWS Key management service: cria e administra chaves de criptografia
+- Amazon Macie: varredura de arquivos para encontrar dados com informações sensíveis
+- Amazon inspector: Encontra vulnerabilidades conhecidas em EC2 e ECR
 - 
