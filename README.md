@@ -189,4 +189,9 @@ Design tradeoffs
 - AWS Key management service: cria e administra chaves de criptografia
 - Amazon Macie: varredura de arquivos para encontrar dados com informações sensíveis
 - Amazon inspector: Encontra vulnerabilidades conhecidas em EC2 e ECR
+
+### Aula 02/06/2025
+
+- CloudWatch: ferramenta para coletar, armazenar e analizar métricas da aplicação, CloudWatch gera métricas padrão e customizáveis, gráficos e alertas
+- EventBridge: barramento de eventos, monioramento em tempo real da AWS
 - 
