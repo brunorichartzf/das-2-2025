@@ -194,4 +194,12 @@ Design tradeoffs
 
 - CloudWatch: ferramenta para coletar, armazenar e analizar métricas da aplicação, CloudWatch gera métricas padrão e customizáveis, gráficos e alertas
 - EventBridge: barramento de eventos, monioramento em tempo real da AWS
-- 
+
+### Aula 16/06/2025
+
+- Aurora: escala por cluster, vertical e horizontal
+- RDS: escala por banco, principalmente vertical + réplicas de leitura
+- DynamoDB: escala horizontal com RCUs e WCUs
+- ELB (Elastic Load Balancer): Distribui tráfego para múltiplos alvos em uma ou mais AZs. Checa saúde das máquinas antes de mandar requisições
+- Tipos de load balancer: application, network, gateway, classic
+- Route 53: web service para administrar registros de domínios
