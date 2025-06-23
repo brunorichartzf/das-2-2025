@@ -203,3 +203,10 @@ Design tradeoffs
 - ELB (Elastic Load Balancer): Distribui tráfego para múltiplos alvos em uma ou mais AZs. Checa saúde das máquinas antes de mandar requisições
 - Tipos de load balancer: application, network, gateway, classic
 - Route 53: web service para administrar registros de domínios
+
+### Aula 23/06/2025
+- Benefícios da automação: produtividade, escala, menos probabilidade de erro
+- CloudFormation: ferramenta de criação, atualização ou remoção de recursos de forma atualzada
+- Drift detection: compara estado atual com o template e notifica ou corrige diferenças automaticamente
+- Amazon Q: IA generativa assistente de programação
+- 
