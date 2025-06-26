@@ -209,4 +209,10 @@ Design tradeoffs
 - CloudFormation: ferramenta de criação, atualização ou remoção de recursos de forma atualzada
 - Drift detection: compara estado atual com o template e notifica ou corrige diferenças automaticamente
 - Amazon Q: IA generativa assistente de programação
-- 
+
+### Aula 23/06/2025
+- Load balancer: é possível usar load balancers para reduzir acoplamento entre camadas da aplicação
+- Ao invés de usar um monolito, dividir a aplicação em módulos reduz acoplamento
+- Simple queue service: Serviço de fila de mensagens da AWS que permite múltiplos produtores e consumidores, os quais só recebem uma cópia de cada mensagem
+
+###FIM###
